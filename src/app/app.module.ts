@@ -9,6 +9,9 @@ import { DatabindComponent } from './databind/databind.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { ComponentsComponent } from './components/components.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ComponentsComponent } from './components/components.component';
     DatabindComponent,
     SignupComponent,
     LoginComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe
   ],
   imports: [
     BrowserModule,

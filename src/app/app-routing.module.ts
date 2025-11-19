@@ -6,6 +6,7 @@ import { DatabindComponent } from './databind/databind.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 const routes: Routes = [
   { path:'home',component:HomeComponent},
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path:'dir',component:DirectivesComponent},
   { path:'login',component:LoginComponent},
   {path :'signup',component:SignupComponent},
+  {path :'pipe',component:PipedemoComponent},
+  // this must be alsway last 
   { path :'',component:LoginComponent}
 ];
 
