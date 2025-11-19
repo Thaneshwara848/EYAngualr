@@ -13,7 +13,8 @@ const routes: Routes = [
   { path:'data' ,component:DatabindComponent},
   { path:'dir',component:DirectivesComponent},
   { path:'login',component:LoginComponent},
-  {path :'signup',component:SignupComponent}
+  {path :'signup',component:SignupComponent},
+  { path :'',component:LoginComponent}
 ];
 
 @NgModule({

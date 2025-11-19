@@ -1,12 +1,32 @@
-<p>databind works!</p>
-<h2>{{name}}</h2>
-
-<div>
-    <input type="submit" (click)="abc()">
+<div style="text-align: center;">
+    <p>databind works!</p>
+    <h3>Hi My Name is Thanesh and im working in 
+        {{company}} from 2020 , i have good experiece in 
+        {{company}} , and in the {{company }} i worked as
+        a softer enginer 
+    </h3>
+    <hr>
+<input type="submit" class="btn btn-success" (click)="abc()">
+<br>
+<input type="text" #uname>
+<input type="submit" (click)="xyz(uname.value)">
+<p>My Name is :  {{name}}</p>
 </div>
-
-
-<div>
-    <input type="text" #uname>
-    <input type="submit" (click)="xyz(uname.value)">
+<div style="text-align: center;">
+  <h3>
+    Principle : <input type="text" #p> <br>
+    ROI : <input type="text" #r  [value]="intrest" disabled>
+    <select (change)="loanType($event.target.value)">
+      <option value="">Loan</option>
+      <option value="edu">EDUCTION</option>
+      <option value="per">Personal</option>
+      <option value="car">CAR</option>
+      <option value="home">HOME</option>
+    </select>
+    <br>
+    TIME : <input type="text" #t> <br>
+    Total : <input type="text" [value]="total"> <br>
+    EMI : <input type="text" [value]="emi"> <br>
+    <input type="submit" (click)="cal(p!.value, r!.value, t!.value)">
+  </h3>
 </div>
