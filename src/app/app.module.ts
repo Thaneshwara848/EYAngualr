@@ -12,6 +12,9 @@ import { ComponentsComponent } from './components/components.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
+import { FormsdemoComponent } from './formsdemo/formsdemo.component';
+import { TempletdriveformComponent } from './templetdriveform/templetdriveform.component';
+import { ReactivedriveformComponent } from './reactivedriveform/reactivedriveform.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { CubePipe } from './cube.pipe';
     ComponentsComponent,
     PipedemoComponent,
     SqrPipe,
-    CubePipe
+    CubePipe,
+    FormsdemoComponent,
+    TempletdriveformComponent,
+    ReactivedriveformComponent
   ],
   imports: [
     BrowserModule,
