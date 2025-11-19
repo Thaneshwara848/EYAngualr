@@ -8,4 +8,21 @@ import { Component } from '@angular/core';
 })
 export class DirectivesComponent {
 
+  abc=true;
+
+  emp=["Arun","Bindu","Sindu","Chandu"];
+  // employees(){
+  //   for(let i = 0;i<this.emp.length;i++){
+  //     console.log(this.emp[i]);
+  //   }
+  // }
+
+fruits = ["Apple","Banana","Cheery"];
+
+  addFruid(fruit:any){
+    console.log(fruit)
+    this.fruits.push(fruit);
+  }
+
+   selectedColor = '';
 }
