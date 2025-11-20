@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-templetdriveform',
@@ -7,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './templetdriveform.component.css'
 })
 export class TempletdriveformComponent {
-
+  myInfo(userForm:any){
+      console.log(userForm)
+  }
 }

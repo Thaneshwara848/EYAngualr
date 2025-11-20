@@ -15,6 +15,10 @@ import { CubePipe } from './cube.pipe';
 import { FormsdemoComponent } from './formsdemo/formsdemo.component';
 import { TempletdriveformComponent } from './templetdriveform/templetdriveform.component';
 import { ReactivedriveformComponent } from './reactivedriveform/reactivedriveform.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ServicesdemoComponent } from './servicesdemo/servicesdemo.component';
+import { AComponent } from './a/a.component';
+import { BComponent } from './b/b.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +34,16 @@ import { ReactivedriveformComponent } from './reactivedriveform/reactivedrivefor
     CubePipe,
     FormsdemoComponent,
     TempletdriveformComponent,
-    ReactivedriveformComponent
+    ReactivedriveformComponent,
+    ServicesdemoComponent,
+    AComponent,
+    BComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
