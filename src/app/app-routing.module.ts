@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { FormsdemoComponent } from './formsdemo/formsdemo.component';
 import { ServicesdemoComponent } from './servicesdemo/servicesdemo.component';
+import { FullstackComponent } from './fullstack/fullstack.component';
 
 const routes: Routes = [
   { path:'home',component:HomeComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path :'pipe',component:PipedemoComponent},
   {path:'forms',component:FormsdemoComponent},
   {path :'serv',component:ServicesdemoComponent},
+  { path:'intgration',component:FullstackComponent},
   // this must be alsway last 
   { path :'',component:LoginComponent}
 ];

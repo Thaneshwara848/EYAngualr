@@ -19,6 +19,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServicesdemoComponent } from './servicesdemo/servicesdemo.component';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
+import { CComponent } from './c/c.component';
+import { FullstackComponent } from './fullstack/fullstack.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { BComponent } from './b/b.component';
     ReactivedriveformComponent,
     ServicesdemoComponent,
     AComponent,
-    BComponent
+    BComponent,
+    CComponent,
+    FullstackComponent
   ],
   imports: [
     BrowserModule,

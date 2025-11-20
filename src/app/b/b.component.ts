@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MycommonservService } from '../mycommonserv.service';
 
 @Component({
   selector: 'app-b',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './b.component.css'
 })
 export class BComponent {
-
+  constructor(private cd:MycommonservService){
+  }
+  bcomp(){
+    //console.log("100 lins in B comp")
+    this.cd.coommndata();
+  }
 }

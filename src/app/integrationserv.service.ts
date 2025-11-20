@@ -3,10 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class MycommonservService {
+export class IntegrationservService {
 
   constructor() { }
-  coommndata(){
-    console.log("only 100 lines serv")
-  }
 }
